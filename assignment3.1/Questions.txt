@@ -1,0 +1,48 @@
+1. Write a PHP script to extract the file name from the given string
+                 Eg: filename = http://localhost/PHPIntro/accessing_strings.php
+
+                       Expected output = accessing_strings.php
+
+2.  Write a PHP script to print duplicate characters from a string
+
+                  Eg: Input: “Java”
+
+                  Output: a   
+
+3. Write a PHP script to find the number of vowels in a given string
+
+4. Write a php function findHighestPopulation($mycountry) to find the highest population state from the given associative array
+
+                $states = array("karnataka" => array ( "population" => "11,35,000", "captial" => "Bangalore"),
+
+                                         "Tamil Nadu" => array( "population" => "17,90,000", "captial" => "Chennai"), 
+
+                                          "Andhra Pradesh" => array("population" => "21,35,000", "captial" => " Hyderabad "), 
+
+                                          “Goa” => array("population" => "8,35,000", "captial" => " Panaji") ));
+
+
+5. You have two arrays like the following. One contains field labels, the other contains field values. Write a program to output the third array.
+$keys = array(
+
+           "field1"=>"first",
+
+            "field2"=>"second",
+
+            "field3"=>"third"
+
+            );
+
+$values = array(
+
+           "field1value"=>"apple",
+
+            "field2value"=>"orange",
+
+            "field3value"=>"graphes"
+
+            );
+
+Output array $keysAndValues :
+
+             Array ( [first] => apple [second] => orange [third] => graphes )
