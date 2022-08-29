@@ -1,0 +1,2 @@
+laravel tutorial - https://www.youtube.com/playlist?list=PLo2t5xGpzGkfaZUOS6JoGixh_r-vz1LQJ
+laravel turtorial site - https://laravel.com/docs/9.x
