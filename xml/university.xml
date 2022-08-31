@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE university[
+    <!ELEMENT university (student+)>
+
+    <!ELEMENT student (name, course_unit, year, message?)>
+    <!ATTLIST student reg_no CDATA #REQUIRED>
+    
+    <!ELEMENT course_unit (ica1, ica2, ece)>
+    <!ATTLIST course_unit id CDATA #FIXED "CSC201S3">
+
+    <!ELEMENT name (#PCDATA)>
+
+    <!ELEMENT ica1 (#PCDATA)>
+    <!ELEMENT ica2 (#PCDATA)>
+    <!ELEMENT ece (#PCDATA)>
+
+    <!ELEMENT year (#PCDATA)>
+
+    <!ELEMENT message (#PCDATA)>
+
+    <!ENTITY message "hello world">
+]>
+
+<university>
+    <student reg_no="2019csc014">
+        <name>sandas</name>
+        <course_unit>
+            <ica1>12</ica1>
+            <ica2>23</ica2>
+            <ece>34</ece>
+        </course_unit>
+        <year>Second</year>
+        <message>&message;</message>
+    </student>
+
+    <student reg_no="2019csc014">
+        <name>sandas</name>
+        <course_unit>
+            <ica1>12</ica1>
+            <ica2>23</ica2>
+            <ece>34</ece>
+        </course_unit>
+        <year>Second</year>
+        <message>&message;</message>
+    </student>
+<student reg_no="2019csc014">
+        <name>sandas</name>
+        <course_unit>
+            <ica1>12</ica1>
+            <ica2>23</ica2>
+            <ece>34</ece>
+        </course_unit>
+        <year>Second</year>
+        <message>&message;</message>
+    </student>
+<student reg_no="2019csc014">
+        <name>sandas</name>
+        <course_unit>
+            <ica1>12</ica1>
+            <ica2>23</ica2>
+            <ece>34</ece>
+        </course_unit>
+        <year>Second</year>
+        <message>&message;</message>
+    </student>
+</university>
